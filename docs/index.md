@@ -2,7 +2,7 @@
 
 !!! Info "说明"
 
-    本课程主页为 2025 秋季学期徐伟、李诚老师班《编译工程》课程主页。
+    本课程主页为 2026 秋季学期徐伟、李诚老师班《编译工程》课程主页。
 
 <hr class="hr-my" data-content="(●′∀｀●) 我是分隔线 (●′∀｀●)">
 
@@ -14,8 +14,8 @@
 
 ### 上课时间与地点
 
-    时间：2~16 周，4(3,4,5)
-    地点：高新校区 GT-B103
+    时间：2~16 周，星期四（3、4、5 节）
+    地点：高新校区 G2-B502
 
 ### 联系方式
 
@@ -27,31 +27,37 @@
 助教
 
 - 肖同欢（<tonghuanxiao@mail.ustc.edu.cn>）
-- 王宇航（<wyh2022@mail.ustc.edu.cn>）
+- 储李节（<cljjjkk@mail.ustc.edu.cn>）
 
 其它
-- QQ 群：858601539
+
+- QQ 群：924052437
+
 ## 公告
 
-- 2025-09-28：[Lab0](lab0/index.md) 已发布，Deadline：**2025 年 10 月 12 日**
+- 2026-09-10：[Lab0](lab0/index.md) 已发布，Deadline：**2026 年 9 月 24 日**
+<!--
 - 2025-10-16：[Lab1](lab1/index.md) 已发布，Deadline：**2025 年 11 月 3 日**
 - 2025-10-30: [lab2](lab2/index.md) 已发布，Deadline: **2025 年 11 月 23 日**
+-->
 
 ## 教学课件
 
 |     日期     |           标题            |                                                                                                 课件                                                                                                 |
 |:----------:|:-----------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 2025-09-18 |         编译工程导论          |                                                                              [Lecture1_Intro](ppt/Lecture1-Intro.pdf)                                                                              |
-| 2025-09-25 |        词法分析-语法分析        | [Lexical-analysis](ppt/Lecture2-Lexical-analysis.pdf), [Parser-part1](ppt/Lecture3-Parser-part1.pdf), [Parser-part2](ppt/Lecture4-Parser-part2.pdf), [Parser-part3](ppt/Lecture5-Parser-part3.pdf) |
-| 2025-09-28 |          语法分析           |                             [Parser-part4](ppt/Lecture6-Parser-part4.pdf)[Parser-part5](ppt/Lecture7-Parser-part5.pdf), [Parser-part6](ppt/Lecture8-Parser-part6.pdf)                              |
-| 2025-10-09 |          语法分析           |                                                     [Parser-part7](ppt/Lecture10-Parser-part7.pdf), [Lab0-Part1](ppt/Lecture11-lab1-part1.pdf)                                                     |
-| 2025-10-16 |      中间代码表示，中间代码生成      |                                          [IR](ppt/Lecture12-IR.pdf), [Lab1-part1](ppt/Lecture13-lab-part1.pdf), [Lab1-part2](ppt/Lecture13-lab-part2.pdf)                                          | 
-| 2025-10-23 |        机器无关代码优化         |                      [IR-opt-part1](ppt/Lecture14-IR Opt-part1-v2.pdf), [IR-opt-part2](ppt/Lecture15-IR Opt-part2-v2.pdf), [IR-opt-part3](ppt/Lecture16-IR Opt-part3-v2.pdf)                       |
-| 2025-10-30 | 机器无关代码优化2 & lab2 编译优化实验 |                    [IR-opt-part4](ppt/Lecture17-IR-Opt-part4-Mem2Reg.pdf), [IR-opt-part5](ppt/Lecture18-IR-Opt-part5-v2.pdf), [lab2-IR-opt](ppt/Lecture19-编译助教PPT-lab2(1).pdf)                     |
-| 2025-11-06 |        GPU并发编译器         |                                                                    [GPU-Compiler](ppt/Mthreads_GPU_ParallelCompilers_final.pdf)                                                                    |
-| 2025-11-20 |        GPU并发编译器         |                                                                    [GPU-Compiler](ppt/Mthreads_GPU_ParallelCompilers_final.pdf)                                                                    |
-| 2025-11-21 |        深度学习编译器汇报        |                                                                                 [GPU-Compiler](ppt/深度学习编译器汇报.pdf)                                                                                  |
-| 2025-11-27 |  龙芯汇编自动生成 & 指令选择与指令调度   |                                                                  [LA](ppt/Lecture20-LA.pdf), [CodeSel](ppt/Lecture21-CodeSel.pdf)                                                                  |       
+| 2026-09-10 |         编译工程导论          |                                                                              [Lecture1_Intro](ppt/Lecture1-Intro.pdf)                                                                              |
+<!--
+| 2026-09-25 |        词法分析-语法分析        | [Lexical-analysis](ppt/Lecture2-Lexical-analysis.pdf), [Parser-part1](ppt/Lecture3-Parser-part1.pdf), [Parser-part2](ppt/Lecture4-Parser-part2.pdf), [Parser-part3](ppt/Lecture5-Parser-part3.pdf) |
+| 2026-09-28 |          语法分析           |                             [Parser-part4](ppt/Lecture6-Parser-part4.pdf)[Parser-part5](ppt/Lecture7-Parser-part5.pdf), [Parser-part6](ppt/Lecture8-Parser-part6.pdf)                              |
+| 2026-10-09 |          语法分析           |                                                     [Parser-part7](ppt/Lecture10-Parser-part7.pdf), [Lab0-Part1](ppt/Lecture11-lab1-part1.pdf)                                                     |
+| 2026-10-16 |      中间代码表示，中间代码生成      |                                          [IR](ppt/Lecture12-IR.pdf), [Lab1-part1](ppt/Lecture13-lab-part1.pdf), [Lab1-part2](ppt/Lecture13-lab-part2.pdf)                                          |
+| 2026-10-23 |        机器无关代码优化         |                      [IR-opt-part1](ppt/Lecture14-IR Opt-part1-v2.pdf), [IR-opt-part2](ppt/Lecture15-IR Opt-part2-v2.pdf), [IR-opt-part3](ppt/Lecture16-IR Opt-part3-v2.pdf)                       |
+| 2026-10-30 | 机器无关代码优化2 & lab2 编译优化实验 |                    [IR-opt-part4](ppt/Lecture17-IR-Opt-part4-Mem2Reg.pdf), [IR-opt-part5](ppt/Lecture18-IR-Opt-part5-v2.pdf), [lab2-IR-opt](ppt/Lecture19-编译助教PPT-lab2(1).pdf)                     |
+| 2026-11-06 |        GPU并发编译器         |                                                                    [GPU-Compiler](ppt/Mthreads_GPU_ParallelCompilers_final.pdf)                                                                    |
+| 2026-11-20 |        GPU并发编译器         |                                                                    [GPU-Compiler](ppt/Mthreads_GPU_ParallelCompilers_final.pdf)                                                                    |
+| 2026-11-21 |        深度学习编译器汇报        |                                                                                 [GPU-Compiler](ppt/深度学习编译器汇报.pdf)                                                                                  |
+| 2026-11-27 |  龙芯汇编自动生成 & 指令选择与指令调度   |                                                                  [LA](ppt/Lecture20-LA.pdf), [CodeSel](ppt/Lecture21-CodeSel.pdf)                                                                  |
+-->
 <!--
 | 2025-04-24 |                        机器无关代码优化                         |                                                     [IR-opt-part1](ppt/Lecture24-IR%20Opt-part1-v2.pdf), [IR-opt-part2](ppt/Lecture25-IR%20Opt-part2-v2.pdf), [IR-opt-part3](ppt/Lecture26-IR%20Opt-part3-v2.pdf)                                                      |
 | 2025-05-08 |                        机器无关代码优化                         |                                                                                                      [IR-opt-part4](ppt/Lecture27-IR%20Opt-part4-Mem2Reg.pdf), [IR-opt-part5](ppt/Lecture28-IR%20Opt-part5-v2.pdf)                                                                                                      |
