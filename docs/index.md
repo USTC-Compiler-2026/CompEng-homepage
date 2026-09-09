@@ -21,7 +21,6 @@
 
 教师
 
-- 主讲教师：李诚 （<chengli7@ustc.edu.cn>）
 - 主讲教师：徐伟 （<xuweihf@ustc.edu.cn>）
 
 助教
