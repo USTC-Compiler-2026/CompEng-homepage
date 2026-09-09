@@ -2,7 +2,7 @@
 
 !!! Info "说明"
 
-    本课程主页为 2026 秋季学期徐伟、李诚老师班《编译工程》课程主页。
+    本课程主页为 2026 秋季学期徐伟老师班《编译工程》课程主页。
 
 <hr class="hr-my" data-content="(●′∀｀●) 我是分隔线 (●′∀｀●)">
 
@@ -84,14 +84,19 @@
 
 ### 教材和参考书
 
-- <div id='textbook'></div> 陈意云、张昱，编译原理（第 3 版），高等教育出版社，2014
+- <span id="textbook"></span>李诚、徐伟、张昱，现代编译器设计与实现，高等教育出版社，2026
+- 陈意云、张昱，编译原理（第 3 版），高等教育出版社，2016
+- 李诚、徐伟，电子教材，[https://abooks.hep.com.cn/188243](https://abooks.hep.com.cn/188243)
 - A. V. Aho, M. S. Lam, R. Sethi, and J. D. Ullman 著，赵建华等译，编译原理，机械工业出版社，2017
+
+### 实验视频
+
+- B站视频：[https://www.bilibili.com/video/BV1D7421N7c4](https://www.bilibili.com/video/BV1D7421N7c4)
 
 ### 其他资料
 
 - Stanford 课程主页：[http://web.stanford.edu/class/cs143/](http://web.stanford.edu/class/cs143/)
 - MIT 课程主页：[http://6.035.scripts.mit.edu/fa18/](http://6.035.scripts.mit.edu/fa18/)
-- 编译实验讲解与说明：<https://www.bilibili.com/video/BV1D7421N7c4> 
 
 ## 如何使用本文档？
 
