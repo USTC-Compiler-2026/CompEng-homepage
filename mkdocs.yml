@@ -39,6 +39,7 @@ plugins:
   - git-revision-date-localized   # 显示上次编辑时间 https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
 
 exclude_docs: |
+  lab0/
   lab1/
   lab2/
 
@@ -122,13 +123,13 @@ nav:
   #   - C++ 介绍: common/simple_cpp.md
   #   - Logging 工具使用: common/logging.md
   #   - 龙芯汇编介绍: common/asm_intro.md
-  - Lab0:
-    - Lab0 简介: lab0/index.md
-    - Linux 环境配置: lab0/linux.md
-    - LLVM 等软件环境配置: lab0/software.md
-    # - Git 的使用: lab0/git.md
-    - C++ 语法: lab0/cpp.md
-    - 如何Debug: lab0/debug.md
+  # - Lab0:
+  #   - Lab0 简介: lab0/index.md
+  #   - Linux 环境配置: lab0/linux.md
+  #   - LLVM 等软件环境配置: lab0/software.md
+  #   - Git 的使用: lab0/git.md
+  #   - C++ 语法: lab0/cpp.md
+  #   - 如何Debug: lab0/debug.md
   # - Lab1:
   #   - Lab1 简介: lab1/index.md
   #   - AST: lab1/AST.md
