@@ -34,7 +34,7 @@
 
 ## 公告
 
-- 2026-09-10：[Lab0](lab0/index.md) 已发布，Deadline：**2026 年 9 月 24 日**
+- 2026-09-10：[Lab0](lab0/index.md) 已发布，Deadline：**2026 年 10 月 25 日 23:59**
 <!--
 - 2025-10-16：[Lab1](lab1/index.md) 已发布，Deadline：**2025 年 11 月 3 日**
 - 2025-10-30: [lab2](lab2/index.md) 已发布，Deadline: **2025 年 11 月 23 日**
