@@ -12,7 +12,7 @@
 
 ## 实验准备
 
-请克隆 [Lab1 仓库](https://github.com/XiaoTonghuan/USTC-Compiler-Engineering-2025)
+请克隆 [Lab1 仓库](https://cscourse.ustc.edu.cn/vdir/Gitlab/compiler_staff/USTC-Compiler-Engineering-2026.git)
 
 ??? note "ZLIB 相关报错"
 
@@ -30,4 +30,4 @@
 
 ## 提交内容
 
-提交你的代码仓库链接至助教肖同欢邮箱(<tonghuanxiao@mail.ustc.edu.cn>)即可
+提交代码到希冀平台。
