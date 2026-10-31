@@ -43,43 +43,27 @@
 
 ## 教学课件
 
-|     日期     |           标题            |                                                                                                 课件                                                                                                 |
-|:----------:|:-----------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| 2026-09-10 |         编译工程导论          |                                                                              [Lecture1_Intro](ppt/Lecture1-Intro.pdf)                                                                              |
-<!--
-| 2026-09-25 |        词法分析-语法分析        | [Lexical-analysis](ppt/Lecture2-Lexical-analysis.pdf), [Parser-part1](ppt/Lecture3-Parser-part1.pdf), [Parser-part2](ppt/Lecture4-Parser-part2.pdf), [Parser-part3](ppt/Lecture5-Parser-part3.pdf) |
-| 2026-09-28 |          语法分析           |                             [Parser-part4](ppt/Lecture6-Parser-part4.pdf)[Parser-part5](ppt/Lecture7-Parser-part5.pdf), [Parser-part6](ppt/Lecture8-Parser-part6.pdf)                              |
-| 2026-10-09 |          语法分析           |                                                     [Parser-part7](ppt/Lecture10-Parser-part7.pdf), [Lab0-Part1](ppt/Lecture11-lab1-part1.pdf)                                                     |
-| 2026-10-16 |      中间代码表示，中间代码生成      |                                          [IR](ppt/Lecture12-IR.pdf), [Lab1-part1](ppt/Lecture13-lab-part1.pdf), [Lab1-part2](ppt/Lecture13-lab-part2.pdf)                                          |
-| 2026-10-23 |        机器无关代码优化         |                      [IR-opt-part1](ppt/Lecture14-IR Opt-part1-v2.pdf), [IR-opt-part2](ppt/Lecture15-IR Opt-part2-v2.pdf), [IR-opt-part3](ppt/Lecture16-IR Opt-part3-v2.pdf)                       |
-| 2026-10-30 | 机器无关代码优化2 & lab2 编译优化实验 |                    [IR-opt-part4](ppt/Lecture17-IR-Opt-part4-Mem2Reg.pdf), [IR-opt-part5](ppt/Lecture18-IR-Opt-part5-v2.pdf), [lab2-IR-opt](ppt/Lecture19-编译助教PPT-lab2(1).pdf)                     |
-| 2026-11-06 |        GPU并发编译器         |                                                                    [GPU-Compiler](ppt/Mthreads_GPU_ParallelCompilers_final.pdf)                                                                    |
-| 2026-11-20 |        GPU并发编译器         |                                                                    [GPU-Compiler](ppt/Mthreads_GPU_ParallelCompilers_final.pdf)                                                                    |
-| 2026-11-21 |        深度学习编译器汇报        |                                                                                 [GPU-Compiler](ppt/深度学习编译器汇报.pdf)                                                                                  |
-| 2026-11-27 |  龙芯汇编自动生成 & 指令选择与指令调度   |                                                                  [LA](ppt/Lecture20-LA.pdf), [CodeSel](ppt/Lecture21-CodeSel.pdf)                                                                  |
--->
-<!--
-| 2025-04-24 |                        机器无关代码优化                         |                                                     [IR-opt-part1](ppt/Lecture24-IR%20Opt-part1-v2.pdf), [IR-opt-part2](ppt/Lecture25-IR%20Opt-part2-v2.pdf), [IR-opt-part3](ppt/Lecture26-IR%20Opt-part3-v2.pdf)                                                      |
-| 2025-05-08 |                        机器无关代码优化                         |                                                                                                      [IR-opt-part4](ppt/Lecture27-IR%20Opt-part4-Mem2Reg.pdf), [IR-opt-part5](ppt/Lecture28-IR%20Opt-part5-v2.pdf)                                                                                                      |
-| 2025-05-29 |                                     后端代码生成与优化   | [CodeSel](ppt/Lecture29-CodeSel.pdf), [RegAlloc-part1](ppt/Lecture30-RegAlloc-part1.pdf), [RegAlloc-part2](ppt/Lecture31-RegAlloc-part2.pdf), [phi](ppt/Lecture32-phi函数接合.pdf) |
-| 2024-10-16 |     语法制导翻译 - 语法制导翻译方案 & L 属性定义的翻译方案      |                                                                           [Translation-part2](ppt/Lecture12-Translation-part2.pdf), [Translation-part3](ppt/Lecture13-Translation-part3.pdf)                                                                           |
-| 2024-10-21 |               语法制导翻译 - L 属性定义的翻译方案               |                                                                                                        [Translation-part4](ppt/Lecture14-Translation-part4.pdf)                                                                                                        |
-| 2024-10-23 |      中间代码翻译 - 简单语句翻译 & 控制流与布尔表达式翻译       |                                                                   [IR-Translation-part1](ppt/Lecture15-IR%20Translation-part1.pdf), [IR-Translation-part2](ppt/Lecture16-IR%20Translation-part2.pdf)                                                                   |
-| 2024-10-28 |             中间代码翻译 - 布尔表达式 & 控制流语句              |                                                                   [IR-Translation-part3](ppt/Lecture17-IR%20Translation-part3.pdf), [IR-Translation-part4](ppt/Lecture18-IR%20Translation-part4.pdf)                                                                   |
-| 2024-10-30 |               中间代码翻译 - 类型表达式及自动构造               |                                                                                                    [IR-Translation-part5](ppt/Lecture19-IR%20Translation-part5.pdf)                                                                                                    |
-| 2024-11-04 |          中间代码翻译 - 类型表达式 & 符号表与声明语句           |                                                                                                    [IR-Translation-part6](ppt/Lecture20-IR%20Translation-part6.pdf)                                                                                                    |
-| 2024-11-06 |         中间代码翻译 - 数组寻址 & 运行时管理 - 存储组织         |                                                                           [IR-Translation-part7](ppt/Lecture21-IR%20Translation-part7.pdf), [Runtime-part1](ppt/Lecture22-Runtime-part1.pdf)                                                                           |
-| 2024-11-11 |                      运行时管理 - 栈式分配                      |                                                                                   [Runtime-part2](ppt/Lecture23-Runtime-part2.pdf), [Runtime-part3](ppt/Lecture24-Runtime-part3.pdf)                                                                                   |
-| 2024-11-13 |                     代码生成 - 简单机器模型                     |                                                                                                            [CodeGen-part1](ppt/Lecture25-CodeGen-part1.pdf)                                                                                                            |
-| 2024-11-18 |                 机器无关代码优化 - 常见优化方法                 |                                                                                                            [IR Opt-part1](ppt/Lecture26-IR%20Opt-part1.pdf)                                                                                                            |
-| 2024-11-20 |             机器无关代码优化 - 数据流与到达定值分析             |                                                                                                            [IR Opt-part2](ppt/Lecture27-IR%20Opt-part2.pdf)                                                                                                            |
-| 2024-11-25 | 机器无关代码优化 - 可用表达式分析 & 活跃变量分析 & 基本块内优化 |                                                          [IR Opt-part3](ppt/Lecture28-IR%20Opt-part3.pdf), [IR Opt-part4](ppt/Lecture29-IR%20Opt-part4.pdf), [IR Opt-part5](ppt/Lecture30-IR%20Opt-part5.pdf)                                                          |
-| 2024-11-27 |                    流图中的循环 & 寄存器分配                    |                                                                                              [Loop](ppt/Lecture31-Loop-part1.pdf), [Register](ppt/Lecture32-Register.pdf)                                                                                              |                                                                                                              |
-| 2024-11-29 |                          面向目标机器的代码优化                           |                                                                              [part1](https://rec.ustc.edu.cn/share/d6169380-9045-11ee-8a37-87201671ab8d)                                                                              |
-| 2024-12-04 |                               guest lecture                               |                                                                                                               无 slides                                                                                                               |
-| 2024-12-06 |                               guest lecture                               |                                                                                                               无 slides                                                                                                               |
-| 2024-12-13 |                                  复习课                                   |                                                                             [slides](https://rec.ustc.edu.cn/share/3a4ffcf0-995a-11ee-9fdc-a7ee4ffd604e)                                                                              |
--->
+| **标题** | **课件** |
+| :----: | :----: |
+| 编译工程导论 | [Lecture1（PDF）](ppt/Lecture1-Intro-v2.pdf) |
+| 词法分析 | [Lecture2（PDF）](ppt/Lecture2-Lexical-analysis.pdf) |
+| 语法分析（1） | [Lecture3（PDF）](ppt/Lecture3-Parser-part1.pdf) |
+| 语法分析（2） | [Lecture4（PDF）](ppt/Lecture4-Parser-part2.pdf) |
+| 语法分析（3） | [Lecture5（PDF）](ppt/Lecture5-Parser-part3.pdf) |
+| 语法分析（4） | [Lecture6（PDF）](ppt/Lecture6-Parser-part4.pdf) |
+| 语法分析（5） | [Lecture7（PDF）](ppt/Lecture7-Parser-part5.pdf) |
+| 语法分析（6） | [Lecture8（PDF）](ppt/Lecture8-Parser-part6.pdf) |
+| 语法分析（7） | [Lecture9（PDF）](ppt/Lecture9-Parser-part7.pdf) |
+| Lab0 环境搭建与 Debug | [Lecture10（PDF）](ppt/Lecture10-Lab0%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%92%8Cdebug.pdf) |
+| 摩尔线程环境搭建 | [Lecture11（PDF）](ppt/Lecture11-%E6%91%A9%E5%B0%94%E7%BA%BF%E7%A8%8B%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%281%29.pdf) |
+| Lab1 实验讲解 | [Lecture12（PDF）](ppt/Lecture12-lab1.pdf) |
+| 中间代码表示 | [Lecture13（PDF）](ppt/Lecture13-IR.pdf) |
+| 机器无关代码优化（1） | [Lecture14（PDF）](ppt/Lecture14-IR%20Opt-part1-v2.pdf) |
+| 机器无关代码优化（2） | [Lecture15（PDF）](ppt/Lecture15-IR%20Opt-part2-v2.pdf) |
+| 机器无关代码优化（3） | [Lecture16（PDF）](ppt/Lecture16-IR%20Opt-part3-v2%281%29.pdf) |
+| 机器无关代码优化（4）：Mem2Reg | [Lecture17（PDF）](ppt/Lecture17-IR%20Opt-part4-Mem2Reg.pdf) |
+| Lab2：IR 生成 | [Lecture18（PDF）](ppt/Lecture18-lab2-irgen.pdf) |
+
 ## 参考资料
 
 ### 教材和参考书
